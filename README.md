@@ -1,17 +1,17 @@
 # EX.-4-LOAD-FLOW-ANALYSIS-USING-GAUSS--SEIDAL-METHOD
-AIM: 
+# AIM: 
 To carry out the load flow analysis of the given power system by Gauss-Seidal 
 method. 
 
-SOFTWARE REQUIRED:
-MATLAB Software
+# SOFTWARE REQUIRED:
+ETAP Software
  
-THEORY: 
+# THEORY: 
 Load flow analysis is the study conducted to determine the steady state 
 condition of the given system. A large number of numerical algorithms have been developed 
 and Gauss Seidal method is one of such algorithms. 
  
-PROBLEM FORMULATION: 
+# PROBLEM FORMULATION: 
    
 The performance equation of a power system may be written as  
 [Ibus]=[Ybus][Vbus] ----------------------------(1) 
@@ -118,7 +118,7 @@ calculations are very simple. This is used for making a good initial start for N
 method.
 
 
-ALGORITHM: 
+# ALGORITHM: 
 ```
 1. Read the data such as line data, specified bus powers, specified voltages,    
       Q limits at generator buses and tolerance for convergence. 
@@ -173,5 +173,9 @@ Y V
 13.  Stop.
 ```
 
-OUTPUT: 
+# CIRCUIT DIAGRAM:
+# OUTPUT: 
+# RESULT:
+Thus the load flow analysis using gauss-seidal method is successfully done using etap software and the 
+output is obtained.
 
